@@ -16,7 +16,6 @@ coverage/
 # Verilator / cocotb generated files
 obj_dir/
 sim_build/
-results.xml
 
 # Quartus / FPGA tooling artefacts
 # Keep the actual project-definition/source files, but ignore generated build outputs.
@@ -42,3 +41,4 @@ quartus/*.rej
 output_files/*
 !output_files/.gitkeep
 !output_files/*.rpt
+!output_files/adder_top.map.summary
